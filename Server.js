@@ -21,4 +21,4 @@ app.post('/submit',(req,res)=>{
         res.send("The phone number is invalid. It must be in the format: ddd-ddd-dddd.");
     }
 });
-app.listen(port, () => console.log(`Server listening on port ${port}`));
+app.listen(port, () => console.log(`Server listening on port ${port}.`));
